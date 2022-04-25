@@ -1,0 +1,17 @@
+.Produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-content: center;
+    gap: 30px 20px;
+}
+
+.produto .img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.produto .h2 {
+    color: #000;
+    font-size: 20px;
+    text-align: left;
+}

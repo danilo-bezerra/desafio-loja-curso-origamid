@@ -1,0 +1,22 @@
+.nav {
+    padding: 1.5rem 0;
+    
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+
+.link {
+    background-color: #e5e5e5;
+    display: block;
+    padding: .5rem .75rem;
+    border-radius: 4px;
+    color: #000;
+}
+
+.active {
+    background-color: #ccc;
+}

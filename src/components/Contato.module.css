@@ -1,0 +1,17 @@
+.dados ul {
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+.dados ul li {
+    margin-top: .5rem;
+}
+
+.dados ul li:before {
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: .2rem;
+    background-color: #cdcdcd;
+    margin-right: .5rem;
+}
